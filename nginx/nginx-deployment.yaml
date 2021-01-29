@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: "{{ circlerr.image }}"
+        image: latest
         ports:
         - containerPort: 80212
